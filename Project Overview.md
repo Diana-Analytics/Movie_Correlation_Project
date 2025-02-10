@@ -12,7 +12,7 @@ The aim of this project is to analyze the correlation between movie budgets and 
 
    ### Data Preprocessing:
   -  Converted all object (categorical) columns to categorical data types using .astype('category').
-  -  Applied one-hot encoding via .cat.codes to convert categorical columns into numeric values, making the dataset suitable for analysis.
+  -  Applied label encoding via .cat.codes to convert categorical columns into numeric values, making the dataset suitable for analysis.
   ### Exploratory Data Analysis:
   Scatter Plot:
   -  Created a scatter plot to visualize the relationship between the Budget and Gross revenue.
